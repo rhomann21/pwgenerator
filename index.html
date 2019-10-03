@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+  <div class="p-3 mb-2 bg-light text-dark">
+    <!-- box to show password-->
+    <h1 class="h1">Password Generator</h1>
+  <div class="card">
+  <div class="card-body" id="pwBox" >
+    <h2>Generate a password</h2>
+  <div class="card-body">
+    <p>Your secure password</p>
+      <!-- button to geneerate -->
+      <button type="button" class="btn btn-danger" onClick="createPassword()">Generate Password</button>
+      <!-- button copy to clipboard -->
+      <button type="button" class="btn btn-light" onclick="myFunction()">Copy to Clipboard</button>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+        <!-- external js -->
+    <script src="./app.js"></script>
+</body>
+</html>
+
