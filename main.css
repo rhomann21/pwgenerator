@@ -4,3 +4,9 @@
     padding-bottom: 50px;
     text-align: center;
 }
+
+
+.textbox {
+    border: 1px dashed darkgray;
+    margin: 10px;
+}
