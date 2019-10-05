@@ -42,13 +42,12 @@ function createPassword() {
     }
     /* randomize array */
     pwShuffle = shuffle(pw);
-    pwBox.innerHTML = pwShuffle.join('');
+    pwBox.value = pwShuffle.join('');
 };
 
-function myFunction() {
-      var copyText = document.getElementById("pwInput");
-      copyText.select();
-      copyText.setSelectionRange(0, 99999)
-      document.execCommand("copy");
-      alert("Copied the text: " + copyText.value);
-    }
+function copyText() {
+  var copyText = document.getElementById("pwBox");
+  copyText.select();
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+}

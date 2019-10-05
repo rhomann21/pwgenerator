@@ -9,4 +9,5 @@
 .textbox {
     border: 1px dashed darkgray;
     margin: 10px;
+    padding: 10px;
 }
