@@ -1,5 +1,5 @@
 var letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-var symbols = ['!', '@', '#', '$', '%', '*'];
+var symbols = ['!', '@', '#', '$', '%', '*', '&'];
 var pwLen = prompt('How many characters would you like your password to be?');
 var isSymbols = confirm('Do you want special characters?');
 var isNumbers = confirm('Do you want numbers?');
